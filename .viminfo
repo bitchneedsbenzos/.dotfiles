@@ -18,11 +18,13 @@ $
 
 # Command Line History (newest to oldest):
 :q
-|2,0,1763217821,,"q"
-:w
-|2,0,1763217816,,"w"
+|2,0,1763234568,,"q"
 :Ex
-|2,0,1763212243,,"Ex"
+|2,0,1763234473,,"Ex"
+:w
+|2,0,1763234454,,"w"
+:e .gitignore
+|2,0,1763233096,,"e .gitignore"
 :wq
 |2,0,1763188945,,"wq"
 :150
@@ -149,102 +151,42 @@ $
 # Debug Line History (newest to oldest):
 
 # Registers:
-"0	LINE	0
-	!/.config/nvim/lua/
-|3,0,0,1,1,0,1763217786,"!/.config/nvim/lua/"
-""1	LINE	0
-	!/.config/nvim/lua/
-|3,1,1,1,1,0,1763217792,"!/.config/nvim/lua/"
+""0	LINE	0
+	!/.zshrc
+|3,1,0,1,1,0,1763234473,"!/.zshrc"
+"1	LINE	0
+	!/.zshrc
+|3,0,1,1,1,0,1763234393,"!/.zshrc"
 "2	LINE	0
-	!/.config/nvim/after/plugin/
-|3,0,2,1,1,0,1763217337,"!/.config/nvim/after/plugin/"
+	!/.bashrc
+	!/.zshrc
+	!/.gitignore
+|3,0,2,1,3,0,1763234351,"!/.bashrc","!/.zshrc","!/.gitignore"
 "3	LINE	0
-	!/.config/hypr/*
-|3,0,3,1,1,0,1763217133,"!/.config/hypr/*"
+	
+|3,0,3,1,1,0,1763234002,""
 "4	LINE	0
-	alias config='/usr/bin/git --git-dir=/home/bitchneedsbenzos/.dotfiles --work-tree=/home/bitchneedsbenzos'
-|3,0,4,1,1,0,1763211727,"alias config='/usr/bin/git --git-dir=/home/bitchneedsbenzos/.dotfiles --work-tree=/home/bitchneedsbenzos'"
+	!/.config/nvim/after/
+	!/.config/nvim/after/plugin/*
+	!/.config/nvim/lua/
+	!/.config/nvim/lua/core/*
+	!/.config/nvim/lua/plugins/*
+	!/.config/nvim/templates/*
+|3,0,4,1,6,0,1763233367,"!/.config/nvim/after/","!/.config/nvim/after/plugin/*","!/.config/nvim/lua/","!/.config/nvim/lua/core/*","!/.config/nvim/lua/plugins/*","!/.config/nvim/templates/*"
 "5	LINE	0
-	
-	  {
-	  "iamcco/markdown-preview.nvim",
-	    ft = "markdown", -- Load only for markdown filetypes
-	    build = "cd app && yarn install", -- Or "cd app && yarn install" if you use yarn
-	    init = function()
-	      vim.g.mkdp_filetypes = { "markdown" }
-	    end,
-	    config = function()
-	      -- Optional: Configure settings for markdown-preview.nvim
-	      vim.g.mkdp_auto_close = true
-	      vim.g.mkdp_open_to_the_world = false
-	      vim.g.mkdp_open_ip = "127.0.0.1"
-	      vim.g.mkdp_port = "8888"
-	      vim.g.mkdp_browser = "" -- Leave empty to use default browser
-	      vim.g.mkdp_echo_preview_url = true
-	      vim.g.mkdp_page_title = "${name}"
-	      vim.g.mkdp_auto_start = false 
-	      vim.g.mkdp_refresh_slow = false 
-	      vim.g.mkdp_command_for_global = false 
-	      vim.g.mkdp_theme = 'dark' 
-	    end,
-	  },
-|3,0,5,1,23,0,1763183380,"","  {","  \"iamcco/markdown-preview.nvim\",","    ft = \"markdown\", -- Load only for markdown filetypes","    build = \"cd app && yarn install\", -- Or \"cd app && yarn install\" if you use yarn","    init = function()","      vim.g.mkdp_filetypes = { \"markdown\" }","    end,","    config = function()","      -- Optional: Configure settings for markdown-preview.nvim","      vim.g.mkdp_auto_close = true",>44
-|<"      vim.g.mkdp_open_to_the_world = false","      vim.g.mkdp_open_ip = \"127.0.0.1\"","      vim.g.mkdp_port = \"8888\"","      vim.g.mkdp_browser = \"\" -- Leave empty to use default browser","      vim.g.mkdp_echo_preview_url = true","      vim.g.mkdp_page_title = \"${name}\"","      vim.g.mkdp_auto_start = false ","      vim.g.mkdp_refresh_slow = false ","      vim.g.mkdp_command_for_global = false ","      vim.g.mkdp_theme = 'dark' ","    end,","  },"
+	!/.config/nvim/lua/
+|3,0,5,1,1,0,1763217792,"!/.config/nvim/lua/"
 "6	LINE	0
-	  -- PDF export functionality 
-	  { 
-	    "KillTheBayberry/markdown-preview.nvim", 
-	    build = "cd app && yarn install", 
-	    ft = { "markdown" }, 
-	    config = function() 
-	      vim.g.mkdp_browser = 'none' 
-	      vim.g.mkdp_theme = 'dark' 
-	    end, 
-	    enabled = true 
-	  },
-|3,0,6,1,11,0,1763183362,"  -- PDF export functionality ","  { ","    \"KillTheBayberry/markdown-preview.nvim\", ","    build = \"cd app && yarn install\", ","    ft = { \"markdown\" }, ","    config = function() ","      vim.g.mkdp_browser = 'none' ","      vim.g.mkdp_theme = 'dark' ","    end, ","    enabled = true ","  },"
+	!/.config/nvim/after/plugin/
+|3,0,6,1,1,0,1763217337,"!/.config/nvim/after/plugin/"
 "7	LINE	0
-	  {
-	  "iamcco/markdown-preview.nvim",
-	    ft = "markdown", -- Load only for markdown filetypes
-	    build = "cd app && yarn install", -- Or "cd app && yarn install" if you use yarn
-	    init = function()
-	      vim.g.mkdp_filetypes = { "markdown" }
-	    end,
-	    config = function()
-	      -- Optional: Configure settings for markdown-preview.nvim
-	      vim.g.mkdp_auto_close = true
-	      vim.g.mkdp_open_to_the_world = false
-	      vim.g.mkdp_open_ip = "127.0.0.1"
-	      vim.g.mkdp_port = "8888"
-	      vim.g.mkdp_browser = "" -- Leave empty to use default browser
-	      vim.g.mkdp_echo_preview_url = true
-	      vim.g.mkdp_page_title = "${name}"
-	      vim.g.mkdp_auto_start = false 
-	      vim.g.mkdp_refresh_slow = false 
-	      vim.g.mkdp_command_for_global = false 
-	      vim.g.mkdp_theme = 'dark' 
-	    end,
-	  },
-	
-|3,0,7,1,23,0,1763183249,"  {","  \"iamcco/markdown-preview.nvim\",","    ft = \"markdown\", -- Load only for markdown filetypes","    build = \"cd app && yarn install\", -- Or \"cd app && yarn install\" if you use yarn","    init = function()","      vim.g.mkdp_filetypes = { \"markdown\" }","    end,","    config = function()","      -- Optional: Configure settings for markdown-preview.nvim","      vim.g.mkdp_auto_close = true",>44
-|<"      vim.g.mkdp_open_to_the_world = false","      vim.g.mkdp_open_ip = \"127.0.0.1\"","      vim.g.mkdp_port = \"8888\"","      vim.g.mkdp_browser = \"\" -- Leave empty to use default browser","      vim.g.mkdp_echo_preview_url = true","      vim.g.mkdp_page_title = \"${name}\"","      vim.g.mkdp_auto_start = false ","      vim.g.mkdp_refresh_slow = false ","      vim.g.mkdp_command_for_global = false ","      vim.g.mkdp_theme = 'dark' ","    end,","  },",""
+	!/.config/hypr/*
+|3,0,7,1,1,0,1763217133,"!/.config/hypr/*"
 "8	LINE	0
-	  {
-	    "iamcco/markdown-preview.nvim",
-	    build = "cd app && yarn install", 
-	    ft = { "markdown" },
-	    config = function() 
-	      vim.g.mkdp_auto_start = 0 
-	      vim.g.mkdp_auto_close = 1 
-	      vim.g.mkdp_refresh_slow = 0 
-	      vim.g.mkdp_command_for_global = 0 
-	      vim.g.mkdp_open_to_the_world = 0 
-	      vim.g.mkdp_theme = 'dark' 
-	    end 
-	  }, 
-|3,0,8,1,13,0,1763182649,"  {","    \"iamcco/markdown-preview.nvim\",","    build = \"cd app && yarn install\", ","    ft = { \"markdown\" },","    config = function() ","      vim.g.mkdp_auto_start = 0 ","      vim.g.mkdp_auto_close = 1 ","      vim.g.mkdp_refresh_slow = 0 ","      vim.g.mkdp_command_for_global = 0 ","      vim.g.mkdp_open_to_the_world = 0 ","      vim.g.mkdp_theme = 'dark' ","    end ","  }, "
+	alias config='/usr/bin/git --git-dir=/home/bitchneedsbenzos/.dotfiles --work-tree=/home/bitchneedsbenzos'
+|3,0,8,1,1,0,1763211727,"alias config='/usr/bin/git --git-dir=/home/bitchneedsbenzos/.dotfiles --work-tree=/home/bitchneedsbenzos'"
 "9	LINE	0
+	
 	  {
 	  "iamcco/markdown-preview.nvim",
 	    ft = "markdown", -- Load only for markdown filetypes
@@ -267,309 +209,380 @@ $
 	      vim.g.mkdp_theme = 'dark' 
 	    end,
 	  },
-|3,0,9,1,22,0,1763182606,"  {","  \"iamcco/markdown-preview.nvim\",","    ft = \"markdown\", -- Load only for markdown filetypes","    build = \"cd app && yarn install\", -- Or \"cd app && yarn install\" if you use yarn","    init = function()","      vim.g.mkdp_filetypes = { \"markdown\" }","    end,","    config = function()","      -- Optional: Configure settings for markdown-preview.nvim","      vim.g.mkdp_auto_close = true",>44
+|3,0,9,1,23,0,1763183380,"","  {","  \"iamcco/markdown-preview.nvim\",","    ft = \"markdown\", -- Load only for markdown filetypes","    build = \"cd app && yarn install\", -- Or \"cd app && yarn install\" if you use yarn","    init = function()","      vim.g.mkdp_filetypes = { \"markdown\" }","    end,","    config = function()","      -- Optional: Configure settings for markdown-preview.nvim","      vim.g.mkdp_auto_close = true",>44
 |<"      vim.g.mkdp_open_to_the_world = false","      vim.g.mkdp_open_ip = \"127.0.0.1\"","      vim.g.mkdp_port = \"8888\"","      vim.g.mkdp_browser = \"\" -- Leave empty to use default browser","      vim.g.mkdp_echo_preview_url = true","      vim.g.mkdp_page_title = \"${name}\"","      vim.g.mkdp_auto_start = false ","      vim.g.mkdp_refresh_slow = false ","      vim.g.mkdp_command_for_global = false ","      vim.g.mkdp_theme = 'dark' ","    end,","  },"
 "-	CHAR	0
-	,
-|3,0,36,0,1,0,1763182764,","
+	v
+|3,0,36,0,1,0,1763232804,"v"
 
 # File marks:
-'0  12  25  ~/.gitignore
-|4,48,12,25,1763217821,"~/.gitignore"
-'1  9  37  ~/.dotfiles/config
-|4,49,9,37,1763214965,"~/.dotfiles/config"
-'2  2  17  ~/.ssh/config
-|4,50,2,17,1763214795,"~/.ssh/config"
-'3  7  0  ~
-|4,51,7,0,1763212249,"~"
-'4  8  0  ~
-|4,52,8,0,1763212136,"~"
-'5  2  69  ~/.zshrc
-|4,53,2,69,1763212128,"~/.zshrc"
-'6  2  69  ~/.zshrc
-|4,54,2,69,1763212128,"~/.zshrc"
+'0  15  0  ~
+|4,48,15,0,1763234568,"~"
+'1  1  0  ~/.config/xdg-desktop-portal/hyprland-portals.conf
+|4,49,1,0,1763233600,"~/.config/xdg-desktop-portal/hyprland-portals.conf"
+'3  8  0  ~/.config/hypr
+|4,51,8,0,1763232922,"~/.config/hypr"
+'4  4  6  ~/.zshrc
+|4,52,4,6,1763232910,"~/.zshrc"
+'5  5  59  ~/.zshrc
+|4,53,5,59,1763232835,"~/.zshrc"
+'6  5  59  ~/.zshrc
+|4,54,5,59,1763232835,"~/.zshrc"
+'7  2  52  ~/.config/hypr/hyprpaper.conf
+|4,55,2,52,1763232558,"~/.config/hypr/hyprpaper.conf"
+'8  307  0  ~
+|4,56,307,0,1763218053,"~"
+'9  265  0  ~
+|4,57,265,0,1763218053,"~"
 
 # Jumplist (newest first):
--'  12  25  ~/.gitignore
-|4,39,12,25,1763217821,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1763216755,"~/.gitignore"
--'  9  37  ~/.dotfiles/config
-|4,39,9,37,1763214965,"~/.dotfiles/config"
--'  9  37  ~/.dotfiles/config
-|4,39,9,37,1763214965,"~/.dotfiles/config"
--'  13  0  ~
-|4,39,13,0,1763214870,"~"
--'  13  0  ~
-|4,39,13,0,1763214870,"~"
--'  2  17  ~/.ssh/config
-|4,39,2,17,1763214795,"~/.ssh/config"
--'  2  17  ~/.ssh/config
-|4,39,2,17,1763214795,"~/.ssh/config"
--'  2  17  ~/.ssh/config
-|4,39,2,17,1763214795,"~/.ssh/config"
--'  2  17  ~/.ssh/config
-|4,39,2,17,1763214795,"~/.ssh/config"
--'  1  0  ~/.ssh/config
-|4,39,1,0,1763214738,"~/.ssh/config"
--'  1  0  ~/.ssh/config
-|4,39,1,0,1763214738,"~/.ssh/config"
--'  1  0  ~/.ssh/config
-|4,39,1,0,1763214738,"~/.ssh/config"
--'  1  0  ~/.ssh/config
-|4,39,1,0,1763214738,"~/.ssh/config"
--'  7  0  ~
-|4,39,7,0,1763212249,"~"
--'  7  0  ~
-|4,39,7,0,1763212249,"~"
--'  7  0  ~
-|4,39,7,0,1763212249,"~"
--'  7  0  ~
-|4,39,7,0,1763212249,"~"
--'  8  0  ~
-|4,39,8,0,1763212136,"~"
--'  8  0  ~
-|4,39,8,0,1763212136,"~"
--'  8  0  ~
-|4,39,8,0,1763212136,"~"
--'  8  0  ~
-|4,39,8,0,1763212136,"~"
--'  2  69  ~/.zshrc
-|4,39,2,69,1763212128,"~/.zshrc"
--'  2  69  ~/.zshrc
-|4,39,2,69,1763212128,"~/.zshrc"
--'  2  69  ~/.zshrc
-|4,39,2,69,1763212128,"~/.zshrc"
--'  2  69  ~/.zshrc
-|4,39,2,69,1763212128,"~/.zshrc"
--'  2  69  ~/.zshrc
-|4,39,2,69,1763212128,"~/.zshrc"
--'  2  69  ~/.zshrc
-|4,39,2,69,1763212128,"~/.zshrc"
--'  2  69  ~/.zshrc
-|4,39,2,69,1763212128,"~/.zshrc"
--'  2  69  ~/.zshrc
-|4,39,2,69,1763212128,"~/.zshrc"
--'  2  69  ~/.zshrc
-|4,39,2,69,1763212128,"~/.zshrc"
--'  2  69  ~/.zshrc
-|4,39,2,69,1763212128,"~/.zshrc"
--'  2  69  ~/.zshrc
-|4,39,2,69,1763212128,"~/.zshrc"
--'  2  69  ~/.zshrc
-|4,39,2,69,1763212128,"~/.zshrc"
--'  2  69  ~/.zshrc
-|4,39,2,69,1763212128,"~/.zshrc"
--'  2  69  ~/.zshrc
-|4,39,2,69,1763212128,"~/.zshrc"
--'  2  69  ~/.zshrc
-|4,39,2,69,1763212128,"~/.zshrc"
--'  2  69  ~/.zshrc
-|4,39,2,69,1763212128,"~/.zshrc"
--'  2  69  ~/.zshrc
-|4,39,2,69,1763212128,"~/.zshrc"
--'  2  69  ~/.zshrc
-|4,39,2,69,1763212128,"~/.zshrc"
--'  2  69  ~/.zshrc
-|4,39,2,69,1763212128,"~/.zshrc"
--'  2  69  ~/.zshrc
-|4,39,2,69,1763212128,"~/.zshrc"
--'  2  69  ~/.zshrc
-|4,39,2,69,1763212128,"~/.zshrc"
--'  2  69  ~/.zshrc
-|4,39,2,69,1763212128,"~/.zshrc"
--'  2  69  ~/.zshrc
-|4,39,2,69,1763212128,"~/.zshrc"
--'  2  69  ~/.zshrc
-|4,39,2,69,1763212128,"~/.zshrc"
--'  26  0  ~/.dotfiles
-|4,39,26,0,1763212040,"~/.dotfiles"
+-'  15  0  ~
+|4,39,15,0,1763234568,"~"
+-'  1  0  ~/.config/xdg-desktop-portal/hyprland-portals.conf
+|4,39,1,0,1763233600,"~/.config/xdg-desktop-portal/hyprland-portals.conf"
+-'  29  0  ~/.config
+|4,39,29,0,1763233593,"~/.config"
+-'  8  0  ~/.config/systemd
+|4,39,8,0,1763233591,"~/.config/systemd"
+-'  8  0  ~/.config/systemd/user
+|4,39,8,0,1763233590,"~/.config/systemd/user"
+-'  14  0  ~/.config/systemd/user
+|4,39,14,0,1763233583,"~/.config/systemd/user"
+-'  19  0  ~/.config/systemd
+|4,39,19,0,1763233583,"~/.config/systemd"
+-'  21  0  ~/.config/systemd/user
+|4,39,21,0,1763233582,"~/.config/systemd/user"
+-'  27  0  ~/.config/systemd/user
+|4,39,27,0,1763233582,"~/.config/systemd/user"
+-'  28  0  ~/.config/systemd
+|4,39,28,0,1763233582,"~/.config/systemd"
+-'  56  0  ~/.config
+|4,39,56,0,1763233581,"~/.config"
+-'  8  0  ~/.config/spotify
+|4,39,8,0,1763233579,"~/.config/spotify"
+-'  8  0  ~/.config/spotify/Users
+|4,39,8,0,1763233569,"~/.config/spotify/Users"
+-'  30  0  ~/.config/spotify
+|4,39,30,0,1763233568,"~/.config/spotify"
+-'  84  0  ~/.config
+|4,39,84,0,1763233566,"~/.config"
+-'  8  0  ~/.config/spicetify
+|4,39,8,0,1763233565,"~/.config/spicetify"
+-'  112  0  ~/.config
+|4,39,112,0,1763233562,"~/.config"
+-'  8  0  ~/.config/rofi
+|4,39,8,0,1763233516,"~/.config/rofi"
+-'  140  0  ~/.config
+|4,39,140,0,1763233514,"~/.config"
+-'  8  0  ~/.config/ranger
+|4,39,8,0,1763233511,"~/.config/ranger"
+-'  168  0  ~/.config
+|4,39,168,0,1763233511,"~/.config"
+-'  8  0  ~/.config/pulse
+|4,39,8,0,1763233508,"~/.config/pulse"
+-'  196  0  ~/.config
+|4,39,196,0,1763233499,"~/.config"
+-'  12  0  ~
+|4,39,12,0,1763233431,"~"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1763233096,"~/.gitconfig"
 -'  8  0  ~/.dotfiles
-|4,39,8,0,1763212040,"~/.dotfiles"
--'  8  0  ~/.dotfiles
-|4,39,8,0,1763212040,"~/.dotfiles"
--'  8  0  ~/.dotfiles
-|4,39,8,0,1763212040,"~/.dotfiles"
--'  8  0  ~/.dotfiles
-|4,39,8,0,1763212040,"~/.dotfiles"
--'  8  0  ~/.dotfiles
-|4,39,8,0,1763212040,"~/.dotfiles"
--'  8  0  ~/.dotfiles
-|4,39,8,0,1763212040,"~/.dotfiles"
--'  8  0  ~/.dotfiles
-|4,39,8,0,1763212040,"~/.dotfiles"
--'  8  0  ~/.dotfiles
-|4,39,8,0,1763212040,"~/.dotfiles"
--'  26  0  ~/.dotfiles
-|4,39,26,0,1763212040,"~/.dotfiles"
--'  8  0  ~/.dotfiles
-|4,39,8,0,1763212040,"~/.dotfiles"
--'  8  0  ~/.dotfiles
-|4,39,8,0,1763212040,"~/.dotfiles"
--'  8  0  ~/.dotfiles
-|4,39,8,0,1763212040,"~/.dotfiles"
--'  8  0  ~/.dotfiles
-|4,39,8,0,1763212040,"~/.dotfiles"
--'  8  0  ~/.dotfiles
-|4,39,8,0,1763212040,"~/.dotfiles"
--'  8  0  ~/.dotfiles
-|4,39,8,0,1763212040,"~/.dotfiles"
--'  8  0  ~/.dotfiles
-|4,39,8,0,1763212040,"~/.dotfiles"
--'  8  0  ~/.dotfiles
-|4,39,8,0,1763212040,"~/.dotfiles"
--'  51  0  ~
-|4,39,51,0,1763211880,"~"
--'  13  0  ~
-|4,39,13,0,1763211880,"~"
--'  51  0  ~
-|4,39,51,0,1763211880,"~"
--'  13  0  ~
-|4,39,13,0,1763211880,"~"
--'  51  0  ~
-|4,39,51,0,1763211880,"~"
--'  13  0  ~
-|4,39,13,0,1763211880,"~"
--'  51  0  ~
-|4,39,51,0,1763211880,"~"
--'  13  0  ~
-|4,39,13,0,1763211880,"~"
--'  1  0  ~
-|4,39,1,0,1763211868,"~"
--'  1  0  ~
-|4,39,1,0,1763211868,"~"
--'  1  0  ~
-|4,39,1,0,1763211868,"~"
--'  1  0  ~
-|4,39,1,0,1763211868,"~"
--'  1  0  ~
-|4,39,1,0,1763211868,"~"
--'  1  0  ~
-|4,39,1,0,1763211868,"~"
--'  1  0  ~
-|4,39,1,0,1763211868,"~"
--'  1  0  ~
-|4,39,1,0,1763211868,"~"
--'  8  0  ~/.dotfiles
-|4,39,8,0,1763211865,"~/.dotfiles"
--'  8  0  ~/.dotfiles
-|4,39,8,0,1763211865,"~/.dotfiles"
--'  8  0  ~/.dotfiles
-|4,39,8,0,1763211865,"~/.dotfiles"
--'  8  0  ~/.dotfiles
-|4,39,8,0,1763211865,"~/.dotfiles"
--'  8  0  ~/.dotfiles
-|4,39,8,0,1763211865,"~/.dotfiles"
--'  8  0  ~/.dotfiles
-|4,39,8,0,1763211865,"~/.dotfiles"
--'  8  0  ~/.dotfiles
-|4,39,8,0,1763211865,"~/.dotfiles"
--'  8  0  ~/.dotfiles
-|4,39,8,0,1763211865,"~/.dotfiles"
--'  8  0  ~/.dotfiles
-|4,39,8,0,1763211865,"~/.dotfiles"
--'  8  0  ~/.dotfiles
-|4,39,8,0,1763211865,"~/.dotfiles"
--'  8  0  ~/.dotfiles
-|4,39,8,0,1763211865,"~/.dotfiles"
--'  8  0  ~/.dotfiles
-|4,39,8,0,1763211865,"~/.dotfiles"
--'  8  0  ~/.dotfiles
-|4,39,8,0,1763211865,"~/.dotfiles"
--'  8  0  ~/.dotfiles
-|4,39,8,0,1763211865,"~/.dotfiles"
--'  8  0  ~/.dotfiles
-|4,39,8,0,1763211865,"~/.dotfiles"
--'  8  0  ~/.dotfiles
-|4,39,8,0,1763211865,"~/.dotfiles"
--'  1  0  ~/.dotfiles
-|4,39,1,0,1763211863,"~/.dotfiles"
--'  1  0  ~/.dotfiles
-|4,39,1,0,1763211863,"~/.dotfiles"
--'  1  0  ~/.dotfiles
-|4,39,1,0,1763211863,"~/.dotfiles"
--'  1  0  ~/.dotfiles
-|4,39,1,0,1763211863,"~/.dotfiles"
+|4,39,8,0,1763233054,"~/.dotfiles"
+-'  8  0  ~/.dotfiles/refs
+|4,39,8,0,1763233048,"~/.dotfiles/refs"
+-'  32  0  ~/.dotfiles
+|4,39,32,0,1763233047,"~/.dotfiles"
+-'  8  0  ~/.dotfiles/info
+|4,39,8,0,1763233044,"~/.dotfiles/info"
+-'  47  0  ~/.dotfiles
+|4,39,47,0,1763233024,"~/.dotfiles"
+-'  8  0  ~/.dotfiles/hooks
+|4,39,8,0,1763233023,"~/.dotfiles/hooks"
+-'  64  0  ~/.dotfiles
+|4,39,64,0,1763233020,"~/.dotfiles"
+-'  8  0  ~/.dotfiles/objects
+|4,39,8,0,1763233019,"~/.dotfiles/objects"
+-'  85  0  ~/.dotfiles
+|4,39,85,0,1763233017,"~/.dotfiles"
+-'  139  0  ~
+|4,39,139,0,1763233014,"~"
+-'  98  0  ~/.dotfiles
+|4,39,98,0,1763233008,"~/.dotfiles"
+-'  181  0  ~
+|4,39,181,0,1763232975,"~"
+-'  8  0  ~/.config
+|4,39,8,0,1763232973,"~/.config"
+-'  222  0  ~
+|4,39,222,0,1763232944,"~"
+-'  37  0  ~/.config
+|4,39,37,0,1763232940,"~/.config"
+-'  8  0  ~/.config/hypr
+|4,39,8,0,1763232939,"~/.config/hypr"
+-'  8  0  ~/.config/hypr
+|4,39,8,0,1763232922,"~/.config/hypr"
+-'  8  0  ~/.config/hypr
+|4,39,8,0,1763232922,"~/.config/hypr"
+-'  4  6  ~/.zshrc
+|4,39,4,6,1763232910,"~/.zshrc"
+-'  4  6  ~/.zshrc
+|4,39,4,6,1763232910,"~/.zshrc"
+-'  4  6  ~/.zshrc
+|4,39,4,6,1763232910,"~/.zshrc"
+-'  4  6  ~/.zshrc
+|4,39,4,6,1763232910,"~/.zshrc"
+-'  4  6  ~/.zshrc
+|4,39,4,6,1763232910,"~/.zshrc"
+-'  4  6  ~/.zshrc
+|4,39,4,6,1763232910,"~/.zshrc"
+-'  1  0  ~/hypr
+|4,39,1,0,1763232846,"~/hypr"
+-'  1  0  ~/hypr
+|4,39,1,0,1763232846,"~/hypr"
+-'  1  0  ~/hypr
+|4,39,1,0,1763232846,"~/hypr"
+-'  1  0  ~/hypr
+|4,39,1,0,1763232846,"~/hypr"
+-'  1  0  ~/hypr
+|4,39,1,0,1763232846,"~/hypr"
+-'  1  0  ~/hypr
+|4,39,1,0,1763232846,"~/hypr"
+-'  5  59  ~/.zshrc
+|4,39,5,59,1763232835,"~/.zshrc"
+-'  5  59  ~/.zshrc
+|4,39,5,59,1763232835,"~/.zshrc"
+-'  5  59  ~/.zshrc
+|4,39,5,59,1763232835,"~/.zshrc"
+-'  5  59  ~/.zshrc
+|4,39,5,59,1763232835,"~/.zshrc"
+-'  5  59  ~/.zshrc
+|4,39,5,59,1763232835,"~/.zshrc"
+-'  5  59  ~/.zshrc
+|4,39,5,59,1763232835,"~/.zshrc"
+-'  5  59  ~/.zshrc
+|4,39,5,59,1763232835,"~/.zshrc"
+-'  5  59  ~/.zshrc
+|4,39,5,59,1763232835,"~/.zshrc"
+-'  5  59  ~/.zshrc
+|4,39,5,59,1763232835,"~/.zshrc"
+-'  5  59  ~/.zshrc
+|4,39,5,59,1763232835,"~/.zshrc"
+-'  5  59  ~/.zshrc
+|4,39,5,59,1763232835,"~/.zshrc"
+-'  5  59  ~/.zshrc
+|4,39,5,59,1763232835,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1763232655,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1763232655,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1763232655,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1763232655,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1763232655,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1763232655,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1763232655,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1763232655,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1763232655,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1763232655,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1763232655,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1763232655,"~/.zshrc"
+-'  2  52  ~/.config/hypr/hyprpaper.conf
+|4,39,2,52,1763232558,"~/.config/hypr/hyprpaper.conf"
+-'  2  52  ~/.config/hypr/hyprpaper.conf
+|4,39,2,52,1763232558,"~/.config/hypr/hyprpaper.conf"
+-'  2  52  ~/.config/hypr/hyprpaper.conf
+|4,39,2,52,1763232558,"~/.config/hypr/hyprpaper.conf"
+-'  2  52  ~/.config/hypr/hyprpaper.conf
+|4,39,2,52,1763232558,"~/.config/hypr/hyprpaper.conf"
+-'  2  52  ~/.config/hypr/hyprpaper.conf
+|4,39,2,52,1763232558,"~/.config/hypr/hyprpaper.conf"
+-'  2  52  ~/.config/hypr/hyprpaper.conf
+|4,39,2,52,1763232558,"~/.config/hypr/hyprpaper.conf"
+-'  2  52  ~/.config/hypr/hyprpaper.conf
+|4,39,2,52,1763232558,"~/.config/hypr/hyprpaper.conf"
+-'  2  52  ~/.config/hypr/hyprpaper.conf
+|4,39,2,52,1763232558,"~/.config/hypr/hyprpaper.conf"
+-'  2  52  ~/.config/hypr/hyprpaper.conf
+|4,39,2,52,1763232558,"~/.config/hypr/hyprpaper.conf"
+-'  2  52  ~/.config/hypr/hyprpaper.conf
+|4,39,2,52,1763232558,"~/.config/hypr/hyprpaper.conf"
+-'  2  52  ~/.config/hypr/hyprpaper.conf
+|4,39,2,52,1763232558,"~/.config/hypr/hyprpaper.conf"
+-'  2  52  ~/.config/hypr/hyprpaper.conf
+|4,39,2,52,1763232558,"~/.config/hypr/hyprpaper.conf"
+-'  2  52  ~/.config/hypr/hyprpaper.conf
+|4,39,2,52,1763232558,"~/.config/hypr/hyprpaper.conf"
+-'  2  52  ~/.config/hypr/hyprpaper.conf
+|4,39,2,52,1763232558,"~/.config/hypr/hyprpaper.conf"
+-'  2  52  ~/.config/hypr/hyprpaper.conf
+|4,39,2,52,1763232558,"~/.config/hypr/hyprpaper.conf"
+-'  2  52  ~/.config/hypr/hyprpaper.conf
+|4,39,2,52,1763232558,"~/.config/hypr/hyprpaper.conf"
+-'  2  52  ~/.config/hypr/hyprpaper.conf
+|4,39,2,52,1763232558,"~/.config/hypr/hyprpaper.conf"
+-'  2  52  ~/.config/hypr/hyprpaper.conf
+|4,39,2,52,1763232558,"~/.config/hypr/hyprpaper.conf"
+-'  2  52  ~/.config/hypr/hyprpaper.conf
+|4,39,2,52,1763232558,"~/.config/hypr/hyprpaper.conf"
+-'  2  52  ~/.config/hypr/hyprpaper.conf
+|4,39,2,52,1763232558,"~/.config/hypr/hyprpaper.conf"
+-'  2  52  ~/.config/hypr/hyprpaper.conf
+|4,39,2,52,1763232558,"~/.config/hypr/hyprpaper.conf"
 
 # History of marks within files (newest to oldest):
 
 > ~/.gitignore
-	*	1763217816	0
-	"	12	25
-	^	12	26
-	.	16	25
-	+	14	42
-	+	14	43
-	+	14	44
-	+	14	27
-	+	6	10
-	+	14	44
-	+	6	10
-	+	7	0
-	+	11	0
-	+	14	28
-	+	7	10
-	+	8	10
-	+	9	10
-	+	10	0
-	+	7	15
-	+	11	10
-	+	8	15
-	+	9	16
-	+	10	14
-	+	11	14
-	+	10	15
-	+	11	20
-	+	12	27
-	+	14	28
-	+	12	28
-	+	13	19
-	+	14	0
-	+	14	28
-	+	14	23
-	+	14	45
-	+	14	24
-	+	14	28
-	+	14	27
+	*	1763234470	0
+	"	8	0
+	^	34	11
+	.	34	10
+	+	17	42
+	+	17	43
+	+	17	44
+	+	17	27
+	+	3	10
+	+	17	44
+	+	3	10
+	+	4	0
 	+	17	0
-	+	15	0
+	+	17	28
+	+	4	10
+	+	5	10
+	+	6	10
+	+	8	0
+	+	4	15
+	+	17	10
+	+	5	15
+	+	6	16
+	+	8	14
+	+	17	14
+	+	8	15
+	+	17	20
+	+	17	27
+	+	17	28
+	+	17	19
+	+	17	0
+	+	17	28
+	+	17	23
+	+	17	45
+	+	17	24
+	+	17	28
+	+	17	27
+	+	17	0
+	+	17	25
+	+	17	22
+	+	37	0
+	+	17	0
+	+	8	16
+	+	6	17
+	+	5	16
+	+	4	16
+	+	8	17
+	+	7	16
+	+	15	24
+	+	17	0
 	+	16	0
-	+	15	25
-	+	16	22
-	+	18	0
+	+	17	0
 	+	16	25
+	+	17	26
+	+	36	0
+	+	18	0
+	+	19	0
+	+	18	19
+	+	19	18
+	+	20	0
+	+	22	30
+	+	20	20
+	+	21	20
+	+	20	29
+	+	24	9
+	+	27	4
+	+	29	12
+	+	3	0
+	+	30	0
+	+	31	0
+	+	33	8
+	+	35	0
+	+	32	7
+	+	34	10
+
+> ~/.config/xdg-desktop-portal/hyprland-portals.conf
+	*	1763233595	0
+	"	1	0
+	^	2	68
+	.	2	67
+	+	1	2
+	+	5	19
+	+	1	0
+	+	2	67
+
+> ~/.config/spotify/prefs
+	*	1763233572	0
+	"	1	0
+
+> ~/.gitconfig
+	*	1763233085	0
+	"	1	0
+
+> ~/.dotfiles/info/exclude
+	*	1763233026	0
+	"	1	0
 
 > ~/.dotfiles/config
-	*	1763214940	0
-	"	9	37
+	*	1763232993	0
+	"	1	0
 	^	9	38
 	.	9	38
 	+	7	11
 	+	5	0
 	+	9	38
 
-> ~/.ssh/config
-	*	1763214788	0
-	"	2	17
-	^	2	18
-	.	2	17
-	+	2	17
+> ~/.dotfiles/index
+	*	1763232984	0
+	"	1	0
+
+> ~/.dotfiles/COMMIT_EDITMSG
+	*	1763232978	0
+	"	1	0
 
 > ~/.zshrc
-	*	1763212234	0
-	"	1	0
-	^	2	70
-	.	2	69
+	*	1763232906	0
+	"	4	6
+	^	4	7
+	.	4	6
 	+	3	0
 	+	2	69
+	+	5	19
+	+	4	20
+	+	5	6
+	+	4	6
+	+	5	6
+	+	4	6
 
-> ~/Notes/test-note-final???.md
-	*	1763188941	0
-	"	4	0
+> ~/hypr
+	*	1763232846	0
+	"	1	0
+
+> ~/.config/hypr/hyprpaper.conf
+	*	1763232545	0
+	"	2	52
+	^	2	53
+	.	2	52
+	+	2	51
+	+	1	42
+	+	2	52
 
 > ~/.config/nvim/lua/plugins/init.lua
-	*	1763183944	0
-	"	50	3
+	*	1763217710	0
+	"	182	0
 	^	50	4
 	.	51	0
 	+	104	3
@@ -655,9 +668,52 @@ $
 	+	50	4
 	+	51	0
 
+> ~/.config/nvim/lua/plugins/markdown.lua
+	*	1763217677	0
+	"	23	0
+	.	10	0
+	+	41	105
+	+	42	0
+	+	40	0
+	+	20	0
+	+	10	0
+
+> ~/.config/nvim/lua/wiki/links.lua
+	*	1763217637	0
+	"	1	0
+	.	3	0
+	+	59	8
+	+	60	0
+	+	59	0
+	+	16	0
+	+	3	0
+
+> ~/.config/nvim/lua/wiki/init.lua
+	*	1763217560	0
+	"	64	0
+	.	3	0
+	+	1	99
+	+	1	0
+	+	1	91
+	+	1	0
+	+	85	0
+	+	84	91
+	+	1	91
+	+	1	12
+	+	71	8
+	+	72	0
+	+	71	0
+	+	66	0
+	+	61	0
+	+	53	0
+	+	47	0
+	+	12	0
+	+	9	0
+	+	3	0
+
 > ~/.config/nvim/lua/core/options.lua
-	*	1763183835	0
-	"	33	0
+	*	1763217524	0
+	"	21	0
 	^	38	3
 	.	38	2
 	+	3	26
@@ -672,6 +728,31 @@ $
 	+	42	28
 	+	14	21
 	+	38	2
+
+> ~/.config/nvim/lua/core/keymaps.lua
+	*	1763217494	0
+	"	1	0
+	^	20	49
+	.	20	49
+	+	27	40
+	+	4	0
+	+	7	0
+	+	14	0
+	+	19	0
+	+	23	0
+	+	28	0
+	+	20	49
+
+> ~/.ssh/config
+	*	1763214788	0
+	"	2	17
+	^	2	18
+	.	2	17
+	+	2	17
+
+> ~/Notes/test-note-final???.md
+	*	1763188941	0
+	"	4	0
 
 > ~/Notes/to-do.md
 	*	1763183623	0
@@ -779,14 +860,6 @@ $
 	*	1763180140	0
 	"	1	0
 
-> ~/.config/hypr/hyprpaper.conf
-	*	1763179736	0
-	"	1	42
-	^	1	43
-	.	1	42
-	+	2	51
-	+	1	42
-
 > ~/.config/hypr/hyprqt6engine.conf
 	*	1763179571	0
 	"	1	0
@@ -801,30 +874,6 @@ $
 	+	2	95
 	e	1	0
 	i	1	0
-
-> ~/.config/nvim/lua/plugins/markdown.lua
-	*	1763176735	0
-	"	28	0
-	.	10	0
-	+	41	105
-	+	42	0
-	+	40	0
-	+	20	0
-	+	10	0
-
-> ~/.config/nvim/lua/core/keymaps.lua
-	*	1763176724	0
-	"	20	0
-	^	20	49
-	.	20	49
-	+	27	40
-	+	4	0
-	+	7	0
-	+	14	0
-	+	19	0
-	+	23	0
-	+	28	0
-	+	20	49
 
 > ~/.config/nvim/lua/core/autocommands.lua
 	*	1763176594	0
@@ -869,39 +918,6 @@ $
 	+	4	2
 	+	7	13
 	+	19	3
-
-> ~/.config/nvim/lua/wiki/init.lua
-	*	1763176582	0
-	"	65	0
-	.	3	0
-	+	1	99
-	+	1	0
-	+	1	91
-	+	1	0
-	+	85	0
-	+	84	91
-	+	1	91
-	+	1	12
-	+	71	8
-	+	72	0
-	+	71	0
-	+	66	0
-	+	61	0
-	+	53	0
-	+	47	0
-	+	12	0
-	+	9	0
-	+	3	0
-
-> ~/.config/nvim/lua/wiki/links.lua
-	*	1763176570	0
-	"	59	0
-	.	3	0
-	+	59	8
-	+	60	0
-	+	59	0
-	+	16	0
-	+	3	0
 
 > ~/.config/nvim/lua/plugins/ui.lua
 	*	1763176555	0
@@ -1076,16 +1092,6 @@ $
 > /Notes/2025.11.14_daily-scratchpad.md
 	*	1763132088	0
 	"	1	0
-
-> ~/.config/xdg-desktop-portal/hyprland-portals.conf
-	*	1763130840	0
-	"	2	67
-	^	2	68
-	.	2	67
-	+	1	2
-	+	5	19
-	+	1	0
-	+	2	67
 
 > ~/Notes/2025.11.14_daily-scratchpad.md
 	*	1763129599	0
