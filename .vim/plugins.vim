@@ -22,3 +22,5 @@ endfunction
 " Plugin calls
 call s:ensure('catppuccin/vim')
 call s:ensure('itchyny/lightline.vim')
+call s:ensure('junegunn/fzf')
+call s:ensure('lervag/wiki.vim')
