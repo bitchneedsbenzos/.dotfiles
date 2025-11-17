@@ -1,4 +1,4 @@
-*
+/**
 
 !~/.config/
 !~/.config/foot/
@@ -6,31 +6,39 @@
 !~/.config/kitty/
 !~/.config/niri/
 !~/.config/nvim/
-!~/.config/ranger/
-!~/.config/rofi/
 !~/.config/systemd/
 !~/.config/waybar/
 !~/.config/xdg-desktop-portal/
 !~/.gnupg/
-!~/.local/share/flatpak/
-!~/.local/share/gnome-boxes/
+!~/.local/
+!~/.local/share/
 !~/.local/share/hyprland/
-!~/.local/share/iwctl/
 !~/.local/share/nvim/
-!~/.local/share/org.gnome.boxes/
-!~/.local/share/ranger/
-!~/.local/share/spotify-launcher/
+!~/.nvim/
 !~/.nvim/undodir/
 !~/.ssh/
 !~/.themes/
 !~/.vim/
-!~/Notes/
-!~/Photos/walls/
-!~/Projects/
+!~/desktop/
+!~/disks/
+!~/documents/
+!~/downloads/
+!~/music/
+!~/notes/
+!~/photos/
+!~/photos/walls/
+!~/photos/icloud/
+!~/projects/
+!~/public/
+!~/templates/
+!~/videos/
+!~/wiki/
 !~/.bashrc
+!~/.fdignore
 !~/.gitignore
 !~/.vimrc
 !~/.zshrc
+!~/.zshrc.pre-oh-my-zsh
 !~/README.md
 
 
