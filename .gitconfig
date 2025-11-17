@@ -1,0 +1,8 @@
+[user]
+	email = btchneedsbenzos@gmail.com
+	name = bitchneedsbenzos
+	signingkey = C34F171A23455D85F71C2AD4CABC4D091E97368D
+[commit]
+	gpgsign = true
+[tag]
+	gpgsign = true
